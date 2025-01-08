@@ -313,7 +313,7 @@ input,textarea{
 
 
 /* responsive */
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
     .banner{
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -322,7 +322,63 @@ input,textarea{
 
     .about{
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .resumeInside{
+       flex-direction: column;
+    }
+
+    footer section{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 768px) {
+    .logo a{
+        font-size: 18px;
+    }
+    .navLinks ul li a{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    .banner-right img{
+        width: 300px;
+        border: 25px solid #fff8f3;
+        border-radius: 100%;
+    }
+    .banner-left h4{
+        font-size: 14px;
+    }
+    .banner h2{
+        font-size: 25px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+
+
+    .banner{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    .about{
+        padding: 0;
+        margin: 0 auto;
     }
 
     .row{
