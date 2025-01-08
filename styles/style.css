@@ -311,3 +311,36 @@ input,textarea{
 }
 
 
+
+/* responsive */
+@media (max-width: 1020px) {
+    .banner{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    .about{
+        padding: 0;
+        margin: 0;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .resumeInside{
+       flex-direction: column;
+    }
+
+    footer section{
+        flex-direction: column;
+    }
+
+}
+
