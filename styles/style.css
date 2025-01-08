@@ -180,7 +180,7 @@ header{
 }
 
 .header{
-    background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources//images//header_bg.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right; 
     
@@ -301,6 +301,7 @@ input,textarea{
     outline: none;
     font-size: 20px;
     margin: 15px 0;
+    resize: none;
 }
 
 .icons img{
